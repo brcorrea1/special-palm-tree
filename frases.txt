@@ -1,7 +1,0 @@
-texto
-lua
-sol
-malha
-fina
-
-

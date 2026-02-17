@@ -8,14 +8,6 @@ body {
   background-color: #F5F4F0;
 }
 
-#page {
-  width: 1120px;
-  padding: 24px;
-  border-radius: 24px;
-  margin: 20px auto;
-  background-color: #F5F4F0;
-}
-
 h1, h2, h3 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   text-align: left;
@@ -24,21 +16,6 @@ h1, h2, h3 {
 p {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   text-align: left;
-}
-
-#fintro {
-padding: 10px;
-font-style: italic;
-}
-
-hr {
-  border: none;
-  height: 1px;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-#destinies {
-  margin-top: 64px;
 }
 
 main {
@@ -54,20 +31,124 @@ h3 {
   font-size: 16px;
 }
 
-#about h1 {
-  color: #000;
-   margin-bottom: 20px;
-   font-size: 36px;
+hr {
+  border: none;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
 }
 
 img {
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
   max-width: 100%;
   display: block;
 }
 
-#intro {
-  text-align: left;
-  padding: 20px;
+#page {
+  width: 1120px;
+  padding: 24px;
+  border-radius: 24px;
+  margin: 20px auto;
+  background-color: #F5F4F0;
 }
 
+#fintro {
+  padding: 0;
+  text-align: center;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+#about h3 {
+  color: #E1624F;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 0;
+}
+
+#about h1 {
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 36px;
+  padding: 0;
+}
+
+#intro {
+  text-align: left;
+  padding: 0px;
+  margin-top: 5px;
+}
+
+#destinies h3 {
+  margin-top: 64px;
+}
+
+#destinies {
+  display: block;
+}
+
+#destinies img {
+  margin-top: 64px;
+}
+
+#destinies h2 {
+  padding: 5px;
+}
+
+#destinies p#intro {
+  margin-bottom: 10px;
+}
+
+section#destinies p {
+  padding: 0;
+  text-align: left;
+}
+
+ul {
+  font-weight: bold;
+  margin-left: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+li {
+  padding: 2px;
+}
+
+#end {
+  text-align: center !important;
+  font-style: italic;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+#Historia {
+  color: #0C51A7;
+}
+
+#Casais {
+  color: #591B98;
+}
+
+#Familias {
+  color: #E5245E;
+}
+
+#Orçamento {
+  color: #E95E10;
+}
